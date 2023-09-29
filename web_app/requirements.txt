@@ -1,6 +1,6 @@
 dash==2.7.0
 numpy
-sklearn-learn
+scikit-learn
 pandas
 plotly
 gunicorn
