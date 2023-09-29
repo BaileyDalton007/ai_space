@@ -6,7 +6,7 @@ import plot
 from tab_screens import cluster_data_tab, article_data_tab, raw_data_tab
 
 # Incorporate data
-df = pd.read_csv('web_app/cluster_data.csv', sep='\t')
+df = pd.read_csv('cluster_data.csv', sep='\t')
 
 # Initialize the app
 app = Dash(__name__)

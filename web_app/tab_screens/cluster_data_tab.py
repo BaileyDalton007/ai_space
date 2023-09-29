@@ -3,7 +3,7 @@ import plotly.express as px
 import json
 
 cluster_labels = dict()
-with open ('web_app/cluster_labels.json', 'r') as f:
+with open ('cluster_labels.json', 'r') as f:
     cluster_labels = json.load(f)
 
 def render(df, data):
