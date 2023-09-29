@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+__pycache__
+
+slack_config.json
+api_config.json
