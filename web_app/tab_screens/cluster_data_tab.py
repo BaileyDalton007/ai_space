@@ -1,22 +1,12 @@
 from dash import html, dcc
 import plotly.express as px
-import json
 
-cluster_labels = dict()
-with open ('cluster_labels.json', 'r') as f:
-    cluster_labels = json.load(f)
-
-def render(df, data):
+def render(df, data, color_map):
     if data is None:
         return
 
-
-    # Define a custom color palette based on the number of unique categories
-    custom_colors = px.colors.qualitative.Set1[:len(df['cluster'].unique())]
-    color_discrete_map = {category: color for category, color in zip(df['cluster'].unique(), custom_colors)}
-
     fig = px.pie(names=df['cluster'].value_counts().index.astype(str), values=df['cluster'].value_counts(),
-                  color_discrete_map=color_discrete_map, color=df['cluster'].value_counts().index)
+                  color_discrete_map=color_map, color=df['cluster'].value_counts().index.astype(str))
 
     # Create a map to pull out the portion of the currently selected cluster
     pull_arr = df['cluster'].value_counts().index == data['cluster']
