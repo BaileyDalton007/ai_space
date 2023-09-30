@@ -3,7 +3,7 @@ import plotly.express as px
 
 def render(df, data, color_map):
     if data is None:
-        return
+        return html.H3("Select a point on the plot to view data.")
 
     fig = px.pie(names=df['cluster'].value_counts().index.astype(str), values=df['cluster'].value_counts(),
                   color_discrete_map=color_map, color=df['cluster'].value_counts().index.astype(str))
