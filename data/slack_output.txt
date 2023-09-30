@@ -1,3 +1,7 @@
+http://sr.mp
+http://Jefferson.nr
+https://speechki.org/
+https://jmvalin.ca/demo/rnnoise/
 https://paperswithcode.com/paper/wave-u-net-a-multi-scale-neural-network-for
 https://paperswithcode.com/paper/wave-u-net-a-multi-scale-neural-network-for
 https://www.youtube.com/watch?v=SKKTTyIM3I4
@@ -128,6 +132,11 @@ https://youtube.fandom.com/wiki/Ai_sponge
 https://youtu.be/CJL8MV469m4?feature=shared
 https://www.wired.com/story/where-memory-ends-and-generative-ai-begins/
 https://www.youtube.com/watch?v=hZFyJjx8jo4
+https://www.engadget.com/even-the-cia-is-developing-an-ai-chatbot-192358767.html
+https://www.bloomberg.com/news/articles/2023-09-26/cia-builds-its-own-artificial-intelligence-tool-in-rivalry-with-china
+https://arstechnica.com/information-technology/2023/09/chatgpt-goes-multimodal-with-image-recognition-and-speech-synthesis/
+https://www.cnbc.com/2023/09/25/spotify-will-use-ai-to-replicate-and-translate-podcasters-voices.html
+https://www.wired.com/story/chatgpt-can-now-talk-to-you-and-look-into-your-life/
 https://www.medrxiv.org/content/10.1101/2023.06.11.23291247v1
 https://www.npr.org/sections/health-shots/2023/09/16/1199924303/chatgpt-ai-medical-advice
 https://www.forbes.com/sites/roberthart/2023/09/21/elon-musk-says-neuralink-could-slash-risk-from-ai-as-firm-prepares-for-first-human-trials/?sh=df9a55429563
