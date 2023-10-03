@@ -2,7 +2,7 @@ import plotly.express as px
 import utils
 
 def render(df, color_map):
-    # Only runs T-SNE first time
+    # Only runs T-SNE first time.
     if 't_x' not in df.columns:
         x, y = utils.tsne_reduction(df['title_embedding'])
         df['t_x'] = x
